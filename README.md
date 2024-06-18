@@ -46,28 +46,29 @@ program that I will be expanding on within the parent directory.
 - **4_Usage/**
   The meat and potatoes of this project will go here. Basic usage and use-cases 
   will be documented here.
-  - '01-Post_Install.config.*<brief description>*.md'
-  - '01-Post_Install.*<brief description>*.md': Files starting with a 01 are 
+  - 01-Post_Install.config.*brief description*.md
+  - 01-Post_Install.*brief description*.md: Files starting with a 01 are 
     designated as post-installation procedures, or even a configuration.
-  - '02-Usage.basic.*<brief description>*.md': i.e.,
-    '02-Usage.basic.cloning_repo.md' Common usage will be found in 02s.
-  - '03-Usage.advanced.*<brief description>*.md: Advanced usage here.
-  - '04-Config.*<use case>*.*<description>*.md: This can be a specific 
+  - 02-Usage.basic.*brief description*.md: i.e.,
+    *02-Usage.basic.cloning_repo.md* Common usage will be found in 02s.
+  - '03-Usage.advanced.*brief description*.md: Advanced usage here.
+  - '04-Config.*use case*.*description*.md: This can be a specific 
     feature, or expansion on basic capabilities.
+  - 05-Accessability.*feature*.md:
 - **5_Notes/**
   This can be an interesting directory, as it will include License and 
   legal notes(If you're from the U.K., or any country that has specific 
   laws for encryption, or administration of certain qualities, **I want 
   to hear from you**.).
-  - 'Legal.md': Referes to the license associated by the source code IP 
+  - Legal.md: Referes to the license associated by the source code IP 
     owner, and references to any laws contributed, or discovered. *Please, 
     note that I am not a lawyer of my, or any country and any advice you 
     find here to be purely topical.* You are on your own my friend.
-  - 'Warnings.md': Some tools are spicey, and you might want to know 
+  - Warnings.md: Some tools are spicey, and you might want to know 
     some of these details if you plan to operate them. Otherwise, 
     this file will simply inform you of common-practices and 
     potential 'gotchas'.
-- '6_Versions.md': A list of Long-Term-Supported versions, or any other 
+- 6_Versions.md: A list of Long-Term-Supported versions, or any other 
   version I discover to be of interest and explanations of features 
   that are found for a version.
 - **7_Help/**
