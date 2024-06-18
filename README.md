@@ -7,23 +7,23 @@ request for documentation to be added or what have you to [odoylexrules](mailto:
 and I'll try to get back to you at my earliest convenience.
 
 #### Directory Structure, and schema:
-** <Program_name>/ **
+**<Program_name>/**
 - *1_About.md*: This is just a brief overview and argument for the 
 program that I will be expanding on within the parent directory.
-- ** 2_Requirements/ **
+- **2_Requirements/**
   This directory will be a good starting point for satisfying any 
   questions about a particular systems suitability, and may contain 
   a walk-through on setting up a development environment for the named tool.
-  - ** Build_Environment.md **
+  - **Build_Environment.md**
     You will find instructions on configuring a system to build the 
     application. Such things as tools needed for compiling, libraries for
     their respective headers, and any other detail required for installing 
     comfertably.
-  - ** Hardware.md **
+  - **Hardware.md**
     For the most part, modern systems satisfy requirements to run most tools. 
     But, for example you may be using Xen Project for your virtualization. 
     Here you will find details on what you will need to install happily.
-  - ** Syscalls_and_Permissions.md **
+  - **Syscalls_and_Permissions.md**
     Proper configuration of apparmor, sysctl, cgroups or any other tool 
     where you will want documentation on what's happening under the hood 
     can be found here. Some tools require elevated privileges, for example 
@@ -32,18 +32,18 @@ program that I will be expanding on within the parent directory.
   - *'firenail.poc.md'*: A simple example of the kind of thing you may find 
     here. If I find PoCs in regards to exploitation, I will be sharing how 
     to use them, and the source code required to test potency.
-- ** 3_Intall/ **
+- **3_Intall/**
   Various operating systems call some tools by different package names. Or, 
   come with a handful of different packages for different things.
 
   Some installation steps for different software might even be broken up 
   into several files, and will be numbered accordingly to permit modularity.
-  - ** apt.md **
+  - **apt.md**
   For a quick walk-through on installing on Debian-based platforms. Maybe
   even honorable mentions to tools I enjoy using along with the application.
-  - ** pacman.md **
+  - **pacman.md**
   As an example of other package managers I might use, including rpm, or yum.
-- ** 4_Usage/ **
+- **4_Usage/**
   The meat and potatoes of this project will go here. Basic usage and use-cases 
   will be documented here.
   - '01-Post_Install.config.*<brief description>*.md'
@@ -54,7 +54,7 @@ program that I will be expanding on within the parent directory.
   - '03-Usage.advanced.*<brief description>*.md: Advanced usage here.
   - '04-Config.*<use case>*.*<description>*.md: This can be a specific 
     feature, or expansion on basic capabilities.
-- ** 5_Notes/ **
+- **5_Notes/**
   This can be an interesting directory, as it will include License and 
   legal notes(If you're from the U.K., or any country that has specific 
   laws for encryption, or administration of certain qualities, **I want 
@@ -70,7 +70,7 @@ program that I will be expanding on within the parent directory.
 - '6_Versions.md': A list of Long-Term-Supported versions, or any other 
   version I discover to be of interest and explanations of features 
   that are found for a version.
-- ** 7_Help/ **
+- **7_Help/**
   You will find links to various sources of help here, such as irc, FAQs, 
   Wikis, and even notable blogs.
 
