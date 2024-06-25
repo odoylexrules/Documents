@@ -6,6 +6,10 @@ If you require help with any of these tools, by all means send me a
 request for documentation to be added or what have you to [odoylexrules](mailto:mintopintohintodoo@gmail.com), 
 and I'll try to get back to you at my earliest convenience.
 
+I tried to encorporate markdown. And, I need to reference these documents 
+in linux terminal environments. So, I'm no longer using markdown for these 
+documents.
+
 #### Directory Structure, and schema:
 **<Program_name>/**
 - *1_About.md*: This is just a brief overview and argument for the 
