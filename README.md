@@ -1,37 +1,37 @@
 ### Documents Project:
 This is largely intended for my own use to administer the tools I use on a 
-regular basis. If you have found this page. I bid you much luck on finding 
+regular basis. If you have found this page. I wish you much luck in finding 
 answers to your own questions and solutions to any problem that may have. 
-If you require help with any of these tools, by all means send me a 
+If you require help with any of these tools, by all means, send me a 
 request for documentation to be added or what have you to [odoylexrules](mailto:mintopintohintodoo@gmail.com), 
 and I'll try to get back to you at my earliest convenience.
 
-I tried to encorporate markdown. And, I need to reference these documents 
-in linux terminal environments. So, I'm no longer using markdown for these 
+I tried to incorporate markdown. And, I need to reference these documents 
+in Linux terminal environments. So, I'm no longer using markdown for these 
 documents.
 
-#### Directory Structure, and schema:
+#### Directory Structure, and Schema:
 **<Program_name>/**
 - *1_About.md*: This is just a brief overview and argument for the 
 program that I will be expanding on within the parent directory.
 - **2_Requirements/**
   This directory will be a good starting point for satisfying any 
-  questions about a particular systems suitability, and may contain 
+  questions about a particular system's suitability, and may contain 
   a walk-through on setting up a development environment for the named tool.
   - **Build_Environment.md**
     You will find instructions on configuring a system to build the 
     application. Such things as tools needed for compiling, libraries for
     their respective headers, and any other detail required for installing 
-    comfertably.
+    comfortably.
   - **Hardware.md**
-    For the most part, modern systems satisfy requirements to run most tools. 
-    But, for example you may be using Xen Project for your virtualization. 
+    For the most part, modern systems satisfy the requirements to run most tools. 
+    But, for example, you may be using Xen Project for your virtualization. 
     Here you will find details on what you will need to install happily.
   - **Syscalls_and_Permissions.md**
-    Proper configuration of apparmor, sysctl, cgroups or any other tool 
+    Proper configuration of AppArmor, Sysctl, CGroups or any other tool 
     where you will want documentation on what's happening under the hood 
     can be found here. Some tools require elevated privileges, for example 
-    ansible can be used by absolutely anyone, but to administer mysql, you 
+    ansible can be used by absolutely anyone, but to administer MySQL, you 
     will need to be root.
   - *'firenail.poc.md'*: A simple example of the kind of thing you may find 
     here. If I find PoCs in regards to exploitation, I will be sharing how 
@@ -44,11 +44,11 @@ program that I will be expanding on within the parent directory.
   into several files, and will be numbered accordingly to permit modularity.
   - **apt.md**
   For a quick walk-through on installing on Debian-based platforms. Maybe
-  even honorable mentions to tools I enjoy using along with the application.
+  even honourable mentions to tools I enjoy using along with the application.
   - **pacman.md**
   As an example of other package managers I might use, including rpm, or yum.
 - **4_Usage/**
-  The meat and potatoes of this project will go here. Basic usage and use-cases 
+  The meat and potatoes of this project will go here. Basic usage and use cases 
   will be documented here.
   - 01-Post_Install.config.*brief description*.md
   - 01-Post_Install.*brief description*.md: Files starting with a 01 are 
@@ -64,19 +64,19 @@ program that I will be expanding on within the parent directory.
   legal notes(If you're from the U.K., or any country that has specific 
   laws for encryption, or administration of certain qualities, **I want 
   to hear from you**.).
-  - Legal.md: Referes to the license associated by the source code IP 
+  - Legal.md: Referes to the license associated with the source code IP 
     owner, and references to any laws contributed, or discovered. *Please, 
     note that I am not a lawyer of my, or any country and any advice you 
-    find here to be purely topical.* You are on your own my friend.
+    find here to be purely topical.* You are on your own, my friend.
   - Warnings.md: Some tools are spicey, and you might want to know 
     some of these details if you plan to operate them. Otherwise, 
-    this file will simply inform you of common-practices and 
+    this file will simply inform you of common practices and 
     potential 'gotchas'.
 - 6_Versions.md: A list of Long-Term-Supported versions, or any other 
   version I discover to be of interest and explanations of features 
   that are found for a version.
 - **7_Help/**
-  You will find links to various sources of help here, such as irc, FAQs, 
+  You will find links to various sources of help here, such as IRC, FAQs, 
   Wikis, and even notable blogs.
 
 #### Contact:
@@ -89,5 +89,5 @@ to expect.
 
 #### License:
 This project is licensed under the [MIT License](https://en.wikipedia.org/wiki/MIT_License), 
-and all that I ask of you, is an honorable mention as a contributor to 
+and all that I ask of you, is an honourable mention as a contributor to 
 the data found within this project.
